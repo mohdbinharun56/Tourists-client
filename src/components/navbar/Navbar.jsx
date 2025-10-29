@@ -28,8 +28,8 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end gap-5 mr-10">
-                <a className="btn btn-accent">Login</a>
-                <a className="btn btn-error">Register</a>
+                <NavLink to={'/login'} className="btn btn-accent">Login</NavLink>
+                <NavLink to={'/register'} className="btn btn-error">Register</NavLink>
             </div>
         </div>
     );
